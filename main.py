@@ -13,10 +13,10 @@ intents.message_content = True
 intents.members = True
 bot = commands.Bot(command_prefix="/", intents=intents, help_command=None)
 
-allowed_user_id = 1133488575120429176
+allowed_user_id = 
 message_sent = False
-role_id = 1220453555543081021
-allowed_role_id = 1220450044113588254
+role_id = 
+allowed_role_id = 
 music_urls = [
     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "https://www.youtube.com/watch?v=3JWTaaS7LdU",
@@ -383,4 +383,4 @@ async def on_member_remove(member):
     print(f'{member} покинул сервер.')
 
 
-bot.run('MTE5Mjk4MzY1MDk4NDI3MTg4Mg.GcNDGL.k_vrNjYCedl0bvsvtGPzmAEY12EW3aoy8ONho0')
+bot.run('YOUR_TOKEN')
